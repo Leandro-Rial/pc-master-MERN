@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: #f6f6f7;
+}
+
+html {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none
+}
+
+/* --------header-------- */
+@import url('./components/Header/header.css');
+
+/* --------home-------- */
+@import url('./components/mainPages/Home/home.css');
+
+/* --------products-------- */
+@import url('./components/mainPages/Products/product.css');
+
+/* --------products-------- */
+@import url('./components/mainPages/Details/details.css');
+
+/* --------products-------- */
+@import url('./components/mainPages/Auth/login.css');
+
+/* --------products-------- */
+@import url('./components/mainPages/Cart/cart.css');
+
+/* --------products-------- */
+@import url('./components/mainPages/Categories/categories.css');
+
+/* --------products-------- */
+@import url('./components/mainPages/CreateProduct/createProduct.css');

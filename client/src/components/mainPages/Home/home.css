@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bg {
+    background-image: url('../../../images/setup-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.bg .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    width: 50%;
+    letter-spacing: 2px;
+}
+
+.bg .content h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.bg .content h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding: 0 120px;
+}
+
+/* FIND */
+.find {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.find h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.find .catalogo-express {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    
+}
+
+.find .catalogo-express .cards {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+@media screen and (max-width: 860px) {
+.bg .content {
+    width: 100%;
+}
+
+.bg .content h1 {
+    font-size: 8rem;
+}
+
+.bg .content h3 {
+    font-size: 3rem;
+    padding: 0 100px;
+}
+
+/* FIND */
+.find h2 {
+    font-size: 3rem;
+}
+
+.find .catalogo-express {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px;
+    
+}
+
+.find .catalogo-express .cards {
+    padding: 20px;
+    margin: 10px;
+}
+
+.find .catalogo-express .cards h3 {
+    font-size: 1.5rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+.bg .content h1 {
+    font-size: 5rem;
+}
+
+.bg .content h3 {
+    font-size: 2rem;
+    padding: 0 50px;
+}
+
+/* FIND */
+.find h2 {
+    font-size: 2.5rem;
+}
+
+.find .catalogo-express {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px;
+    
+}
+
+.find .catalogo-express .cards {
+    padding: 20px;
+    margin: 10px;
+}
+
+.find .catalogo-express .cards h3 {
+    font-size: 1rem;
+}
+}
